@@ -1,0 +1,54 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "youtube",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "hello",
+            "how are you",
+            "say hi world",
+            "say hi",
+            "hi",
+            "say hello world",
+            "say hello"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "GetPoliticalView",
+          "slots": [
+            {
+              "name": "sentence",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "I think {sentence}",
+            "My view is {sentence}",
+            "I believe {sentence}"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "10"
+}
