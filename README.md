@@ -52,12 +52,21 @@ The model class is stored in [SentimentClassifier.py](api/SentimentClassifier.py
 ### Sample Comments
 
 #### Sample comments that model predicted correctly as a Biden supporter comment
--> "I believe in Uncle Joe and Harris"
+- > "I believe in Uncle Joe and Harris"
 - > "I missed to see a decent man in the white house"
-> "America needs someone more decent than the orange man"
-> "With Joe Biden, America will have a fresh air"
-> "Joe Biden is a man with a brain"
-> "Democrats are America's future"
-> "Republicans are shit"
-> "It is enough to hear Trump's sick voice"
+- > "America needs someone more decent than the orange man"
+- > "With Joe Biden, America will have a fresh air"
+- > "Joe Biden is a man with a brain"
+- > "Democrats are America's future"
+- > "Republicans are shit"
+- > "It is enough to hear Trump's sick voice"
 
+#### Sample comments that model predicted correctly as a Trump supporter comment
+- > "Trump will make America Great again"
+- > "I don't want Socialism in America"
+- > "I support patriotism"
+- > "I pray for President Trump"
+- > "I don't want chaos of socialists"
+- > "Trump fights for American people"
+- > "I hate Bernie"
+- > "Media tells lie all the time"
