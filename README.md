@@ -17,7 +17,10 @@ Project is seperated into three parts:
 3. [Joe Biden addresses the nation after election victory](https://www.youtube.com/watch?v=eolEz_jU-vs)
 4. [Watch President Joe Biden's full inauguration speech](https://www.youtube.com/watch?v=LGukNIEIhTU)
 
-For each video highly liked comments are selected and labelled as an indicator of a respective politician's supporter comment.
+For each video; highly liked comments are selected and labelled as an indicator of a respective politician's supporter comment.
+
+#### Model Training
+A pre-trained BERT Sentiment Classifier model is used from Hugging Face's transformers library. In the latest training, 0.84 accuracy was achieved in the test set.
 
 ### Alexa Skill
 
