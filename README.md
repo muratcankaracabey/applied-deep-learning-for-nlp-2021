@@ -17,7 +17,9 @@ Project is seperated into three parts:
 3. [Joe Biden addresses the nation after election victory](https://www.youtube.com/watch?v=eolEz_jU-vs)
 4. [Watch President Joe Biden's full inauguration speech](https://www.youtube.com/watch?v=LGukNIEIhTU)
 
-For each video; highly liked comments are selected and labelled as an indicator of a respective politician's supporter comment.
+For each video, highly liked comments are selected and labelled as an indicator of a respective politician's supporter comment. Comments are cleaned out with simple text cleaning operations such as removing emojis, removing special characters and selecting only English comments. 
+
+Overall cleaned dataset consists of over 3000 samples of comments with almost balanced sentiment classes.(0 denotes a Trump supporter comment, 1 denotes a Biden supporter comment)
 
 #### Model Training
 Training is carried out in a Google Colaboratory environment with the purpose of using the GPU instance. A pre-trained BERT Sentiment Classifier model is used from Hugging Face's transformers library. Model is fine-tuned with an additional fully-connected layer being connected to the output of the original BERT model. In the latest training, 0.84 accuracy was achieved in the test set.
