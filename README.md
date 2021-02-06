@@ -20,7 +20,7 @@ Project is seperated into three parts:
 For each video; highly liked comments are selected and labelled as an indicator of a respective politician's supporter comment.
 
 #### Model Training
-A pre-trained BERT Sentiment Classifier model is used from Hugging Face's transformers library. In the latest training, 0.84 accuracy was achieved in the test set.
+A pre-trained BERT Sentiment Classifier model is used from Hugging Face's transformers library. Model is fine-tuned with an additional fully-connected layer being connected to the output of the original BERT model. In the latest training, 0.84 accuracy was achieved in the test set.
 
 ### Alexa Skill
 
