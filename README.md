@@ -11,11 +11,11 @@ Project is seperated into three parts:
 
 #### Dataset Preparation
 
-Youtube Data API(https://developers.google.com/youtube/v3/docs) is used to extract comments of a particular YouTube video. Comments of 4 videos were used to create a dataset. These videos are listed below:
-1. Trump speaks at 'Make America Great Again' rally in Florida (https://www.youtube.com/watch?v=PWTb4r7h9ew)
-2. Trump delivers remarks in Pennsylvania (Trump delivers remarks in Pennsylvania)
-3. Joe Biden addresses the nation after election victory (https://www.youtube.com/watch?v=eolEz_jU-vs)
-4. Watch President Joe Biden's full inauguration speech (https://www.youtube.com/watch?v=LGukNIEIhTU)
+[Youtube Data API](https://developers.google.com/youtube/v3/docs) is used to extract comments of a particular YouTube video. Comments of 4 videos were used to create a dataset. These videos are listed below:
+1. [Trump speaks at 'Make America Great Again' rally in Florida](https://www.youtube.com/watch?v=PWTb4r7h9ew)
+2. [Trump delivers remarks in Pennsylvania](https://www.youtube.com/watch?v=xWrtgnCTmj4)
+3. [Joe Biden addresses the nation after election victory](https://www.youtube.com/watch?v=eolEz_jU-vs)
+4. [Watch President Joe Biden's full inauguration speech](https://www.youtube.com/watch?v=LGukNIEIhTU)
 
 For each video highly liked comments are selected and labelled as an indicator of a respective politician's supporter comment.
 
