@@ -22,6 +22,12 @@ For each video; highly liked comments are selected and labelled as an indicator 
 #### Model Training
 A pre-trained BERT Sentiment Classifier model is used from Hugging Face's transformers library. Model is fine-tuned with an additional fully-connected layer being connected to the output of the original BERT model. In the latest training, 0.84 accuracy was achieved in the test set.
 
+1. Plot of the latest training 
+<center><img src="training.png" width="500"></center>
+
+2. Confusion matrix
+<center><img src="confusion_matrix.png" width="500"></center>
+
 ### Alexa Skill
 
 <center><img src="skill_structure.png" width="500"></center>
