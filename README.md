@@ -48,3 +48,16 @@ The [lambda_function.py](skill/skill/lambda/lambda_function.py) contains all the
 BERT inference is fast on CPU and it is not possible to load a BERT model on an EC2 instance that comes with the AWS Free Tier. Therefore, API is served locally via `/checkpoliticalview/{view}` endpoint on the port 5000. Since the skill also runs locally, it is trivial to send request using `http://0.0.0.0:5000` from the skill itself. The `view` parameter is taken from the request and fed into the pretrained BERT model to retrieve a prediction e.g. Biden.
 
 The model class is stored in [SentimentClassifier.py](api/SentimentClassifier.py) which is basic BERT model with having a linear layer on top. The training is carried out in the [notebook file](/notebook/model%20training/sentiment_analysis_trump_biden.ipynb).
+
+### Sample Comments
+
+#### Sample comments that model predicted correctly as a Biden supporter comment
+Comment text: "I believe in Uncle Joe and Harris"
+Comment text: "I missed to see a decent man in the white house"
+Comment text: "America needs someone more decent than the orange man"
+Comment text: "With Joe Biden, America will have a fresh air"
+Comment text: "Joe Biden is a man with a brain"
+Comment text: "Democrats are America's future"
+Comment text: "Republicans are shit"
+Comment text: "It is enough to hear Trump's sick voice"
+
