@@ -1,4 +1,7 @@
 # Applied Deep Learning for NLP - Winter 2020/21
+Creators 
+- [Murat Can Karacabey](https://github.com/muratcankaracabey)
+- [Hasan Burak Namli](https://github.com/namlih)
 
 This repository consists of the codebase for *Prediction of Trump vs. Biden support with Sentiment Classification Model trained on YouTube Comments* project. 
 
