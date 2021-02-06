@@ -12,7 +12,7 @@ Project is seperated into three parts:
 
 ### API
 
-<img src="skill_structure.png" width="500">
+<center><img src="skill_structure.png" width="500"></center>
 
 BERT inference is fast on CPU and it is not possible to load a BERT model on an EC2 instance that comes with the AWS Free Tier. Therefore, API is served locally via `/checkpoliticalview/{view}` endpoint on the port 5000 rather than the alexa-hosted lambda function within alexa console. Since the skill also runs locally, it is trivial to send request using `http://0.0.0.0:5000` from the skill itself. The `view` parameter is taken from the request and fed into the pretrained BERT model to retrieve a prediction e.g. Biden.
 
