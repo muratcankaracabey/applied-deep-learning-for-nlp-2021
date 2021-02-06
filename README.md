@@ -13,7 +13,9 @@ When an Alexa skill is invoked, it uses a custom endpoint that is served via ngr
 
 ### API
 
-API is served via `/checkpoliticalview/{view}` endpoint on the port 5000 locally. Since the skill also runs locally, it is trivial to send request to this endpoint. `view` is taken and fed into the pretrained BERT model to retrieve a prediction e.g. Biden.
+<img src="skill_structure.png" width="500">
+
+BERT inference is fast on CPU and it is not possible to load a BERT model on an EC2 instance that comes with the AWS Free Tier. Therefore, API is served locally via `/checkpoliticalview/{view}` endpoint on the port 5000. Since the skill also runs locally, it is trivial to send request using `http://0.0.0.0:5000` from the skill itself. The `view` parameter is taken from the request and fed into the pretrained BERT model to retrieve a prediction e.g. Biden.
 
 The model class is stored in [SentimentClassifier.py](api/SentimentClassifier.py) which is basic BERT model with having a linear layer on top. The training is carried out in the [notebook file](/notebook/model%20training/sentiment_analysis_trump_biden.ipynb).
 
