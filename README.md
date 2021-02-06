@@ -3,7 +3,7 @@
 This repository consists of the codebase for *Prediction of Trump vs. Biden support with Sentiment Classification Model trained on YouTube Comments* project. 
 
 Project is seperated into three parts:
-1. [Model Creation](#model-creation) file that show the model creation process which includes data preparation and model training
+1. [Model Creation](#model-creation) explains the model creation process which includes data preparation and model training
 2. [API](#api) that includes fastAPI interface for serving the model
 3. [Alexa skill](#alexa-skill)  that uses fastAPI interface to predict if a given view is more likely to be of a Trump fan or a Biden fan.
 
