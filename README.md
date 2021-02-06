@@ -49,6 +49,9 @@ BERT inference is fast on CPU and it is not possible to load a BERT model on an 
 
 The model class is stored in [SentimentClassifier.py](api/SentimentClassifier.py) which is basic BERT model with having a linear layer on top. The training is carried out in the [notebook file](/notebook/model%20training/sentiment_analysis_trump_biden.ipynb).
 
+### Alexa in Action
+<center><img src="alexa_ss.png" width="500"></center>
+
 ### Sample Comments
 
 #### Sample comments that model predicted correctly as a Biden supporter comment
