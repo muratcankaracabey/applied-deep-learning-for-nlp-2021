@@ -52,7 +52,7 @@ The model class is stored in [SentimentClassifier.py](api/SentimentClassifier.py
 ### Sample Comments
 
 #### Sample comments that model predicted correctly as a Biden supporter comment
-- > "I believe in Uncle Joe and Harris"
+-> "I believe in Uncle Joe and Harris"
 - > "I missed to see a decent man in the white house"
 > "America needs someone more decent than the orange man"
 > "With Joe Biden, America will have a fresh air"
