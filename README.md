@@ -14,7 +14,7 @@ Project is seperated into three parts:
 
 #### Dataset Preparation
 
-[Youtube Data API](https://developers.google.com/youtube/v3/docs) is used to extract comments of a particular YouTube video. Comments of 4 videos were used to create a dataset. These videos are listed below:
+[Youtube Data API](https://developers.google.com/youtube/v3/docs) is used to extract comments of a particular YouTube video. Comments of 4 videos were used to create a dataset. Trump supporters' comments were selected from the videos of [Fox News YouTube Channel](https://www.youtube.com/channel/UCXIJgqnII2ZOINSWNOGFThA). Biden suppporters' comments were selected from the videos of [CNN YouTube Channel](https://www.youtube.com/channel/UCupvZG-5ko_eiXAupbDfxWw). These videos are listed below:
 1. [Trump speaks at 'Make America Great Again' rally in Florida](https://www.youtube.com/watch?v=PWTb4r7h9ew)
 2. [Trump delivers remarks in Pennsylvania](https://www.youtube.com/watch?v=xWrtgnCTmj4)
 3. [Joe Biden addresses the nation after election victory](https://www.youtube.com/watch?v=eolEz_jU-vs)
@@ -64,14 +64,12 @@ The model class is stored in [SentimentClassifier.py](api/SentimentClassifier.py
 - > "With Joe Biden, America will have a fresh air"
 - > "Joe Biden is a man with a brain"
 - > "Democrats are America's future"
-- > "Republicans are shit"
 - > "It is enough to hear Trump's sick voice"
 
 #### Sample comments that model predicted correctly as a Trump supporter comment
 - > "Trump will make America Great again"
 - > "I don't want Socialism in America"
 - > "I support patriotism"
-- > "I pray for President Trump"
 - > "I don't want chaos of socialists"
 - > "Trump fights for American people"
 - > "I hate Bernie"
